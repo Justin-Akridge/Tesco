@@ -44,9 +44,9 @@ const GoogleMapsSearch = () => {
     }, [text])
 
     return (
-        <div className=''>
+        <div>
             <input 
-                className=''
+                className='flex justify-center'
                 type='text'
                 value={text}
                 onChange={(e) => {
@@ -64,3 +64,5 @@ const GoogleMapsSearch = () => {
         </div>
     )
 }
+
+export default GoogleMapsSearch

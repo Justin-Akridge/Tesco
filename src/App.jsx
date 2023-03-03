@@ -1,10 +1,10 @@
-import NavBar from "./components/Navbar/Logo"
+import NavBar from "./components/Navbar/Navbar"
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
-    </div>
+    </>
   )
 }
 
